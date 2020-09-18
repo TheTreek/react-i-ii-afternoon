@@ -1,0 +1,92 @@
+.header-flexbox{
+  height: 80px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #3F9ED4;
+  position: sticky;
+}
+
+.header-flexbox span{
+  margin: 0px 0px 0px 35px;
+  color: black;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;;
+}
+
+body{
+  background-color: #202020;
+}
+
+.app-flexbox{
+  display: flex;
+  width: 80%;
+  margin: 100px 10%;
+  flex-direction: column;
+}
+
+.card{
+  position:relative;
+  width: 100%;
+  background-color: #E8E8E8;
+  box-sizing: border-box;
+  padding: 40px;
+  font-size: large;
+}
+
+.counter{
+  position: absolute;
+  top:0px;
+  right:10px;
+  margin: 0px;
+}
+
+.name{
+  margin: 0px;
+  text-decoration: underline;
+  text-decoration-color: #3F9ED4;
+}
+
+.bold{
+  font-weight: bold
+}
+
+ol{
+  margin-top: 0px;
+  margin-left:30px;
+}
+
+.menu-flex{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.back{
+  width: 50px;
+}
+
+.next{
+  width: 50px;
+}
+
+.txt-btn{
+  font-weight: bold;
+  user-select: none;
+  cursor: pointer;
+}
+
+button{
+  background-color: #3F9ED4;
+  border-radius: 30px;
+  margin:10px;
+  box-sizing: border-box;
+  padding: 7px 14px;
+  color: white;
+  border:none;
+  font-size: large;
+  cursor: pointer;
+}
