@@ -22,13 +22,17 @@ body{
 .app-flexbox{
   display: flex;
   width: 80%;
-  margin: 100px 10%;
+  max-width: 756px;
+  margin: 0px;
+  margin-top: 100px;
   flex-direction: column;
+  justify-content: center;
 }
 
 .card{
   position:relative;
   width: 100%;
+  max-width: 756px;
   background-color: #E8E8E8;
   box-sizing: border-box;
   padding: 40px;
@@ -58,11 +62,12 @@ ol{
 }
 
 .menu-flex{
-  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   color: white;
+  width: 100%;
+  max-width: 756px;
 }
 
 .back{
@@ -90,3 +95,13 @@ button{
   font-size: large;
   cursor: pointer;
 }
+
+.width-watch{
+  display: flex;
+  justify-content: space-evenly;
+}
+.blank{
+  width:10px;
+  height: 1px;
+}
+

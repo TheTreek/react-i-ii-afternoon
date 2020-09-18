@@ -37,9 +37,13 @@ class App extends Component{
     return(
       <div className='app'>
         <Header />
-        <div className='app-flexbox'>
-          <Card id={this.state.currentId} count={this.state.data.length} info={this.state.data[this.state.currentId-1]} />
-          <Menu next={this.next} back={this.back} id={this.state.currentId} length={this.state.data.length}/>
+        <div className='width-watch'>
+          <div className='blank'></div>
+          <div className='app-flexbox'>
+            <Card id={this.state.currentId} count={this.state.data.length} info={this.state.data[this.state.currentId-1]} />
+            <Menu next={this.next} back={this.back} id={this.state.currentId} length={this.state.data.length}/>
+          </div>
+          <div className='blank'></div>
         </div>
       </div>
     );
